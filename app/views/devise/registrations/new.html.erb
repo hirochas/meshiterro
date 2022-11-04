@@ -5,11 +5,9 @@
 
   <div class="field">
   <%= f.label :name %><br>
-  <%= f.text_field :nam, autofocus: true %>
+  <%= f.text_field :name, autofocus: true %>
 </div>
 
-<h2>Log in</h2>
-  <%= form_with model: @user, url: user_session_path do |f| %>
 
   <div class="field">
     <%= f.label :email %><br>
